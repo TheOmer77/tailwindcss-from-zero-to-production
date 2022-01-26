@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* STILL TEMPORARY WAY TO SET THIS FONT! */
+  font-family: Inter, sans-serif;
+}
+
 /* Generated in components layer, before utilities */
 @layer components {
   .btn {
