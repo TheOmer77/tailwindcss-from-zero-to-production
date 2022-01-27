@@ -1,8 +1,14 @@
+const sizeClasses = { width: "w-32", height: "h-32" };
+
 const DestinationCard = ({
   destination: { averagePrice, city, imageAlt, imageUrl, propertyCount },
 }) => (
   <div className="flex items-center overflow-hidden rounded-lg bg-white shadow-lg">
-    <img className="h-32 w-32 flex-shrink-0" src={imageUrl} alt={imageAlt} />
+    <img
+      className={`${sizeClasses.width} ${sizeClasses.height} flex-shrink-0`}
+      src={imageUrl}
+      alt={imageAlt}
+    />
     <div className="px-6 py-4">
       <h3 className="text-lg font-semibold text-gray-800">{city}</h3>
 
