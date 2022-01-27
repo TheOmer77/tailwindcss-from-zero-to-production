@@ -10,7 +10,7 @@ const DestinationCard = ({
       <div className="mt-4">
         <a
           href="#"
-          className="text-sm font-semibold text-indigo-600 hover:text-indigo-500"
+          className="text-sm font-semibold text-brand-600 hover:text-brand-500"
         >
           Explore {propertyCount} properties
         </a>
