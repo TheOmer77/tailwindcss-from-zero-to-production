@@ -2,6 +2,8 @@
 
 This repository contains the source code for each lesson in the ["Tailwind CSS: From Zero to Production"](https://www.youtube.com/watch?v=elgqxmdVms8&list=PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0&index=1) screencast series on the official Tailwind YouTube channel, but created by me in Tailwind v3.
 
+You can find the original project's source code [here.](https://github.com/tailwindlabs/tailwindcss-from-zero-to-production)
+
 1. **Setting Up Tailwind CSS**<br>
    [Screencast](https://www.youtube.com/watch?v=qYgogv4R8zg) &middot; No source code, since this is just a basic 'Hello World' page
 
